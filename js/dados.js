@@ -23,7 +23,7 @@ const AREAS = {
   powerbi: { nome: "Power BI",          cor: "#F2B705" },
   analise: { nome: "Análise de Dados",  cor: "#13B5A5" },
   ciencia: { nome: "Ciência de Dados",  cor: "#6C4CF5" },
-  outros:  { nome: "Outros",            cor: "#FF5A87" }
+  outros:  { nome: "Automações e Programação", cor: "#FF5A87" }
 };
 
 /* PROJETOS
