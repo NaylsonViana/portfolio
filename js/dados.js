@@ -4,17 +4,17 @@
    ========================================================= */
 
 const PERFIL = {
-  nome: "Seu Nome",
+  nome: "Naylson Viana",
   titulo: "Analista de Dados · Ciência de Dados · Power BI",
-  bio: "Transformo dados em decisões: da limpeza e modelagem até dashboards que as pessoas realmente usam.",
+  bio: "Uno a visão de operações da logística à ciência de dados para transformar números em decisões: de pipelines e modelos a dashboards que o time realmente usa.",
   sobre: [
-    "Escreva aqui um parágrafo sobre você: sua formação, como chegou à área de dados e o que mais gosta de fazer.",
-    "Um segundo parágrafo pode falar dos tipos de problema que você resolve e do que procura agora (vaga, freela, estágio)."
+    "Sou estudante de Ciência de Dados e Técnico em Logística. Foi na logística que percebi o peso dos dados no dia a dia: estoque, prazos, custos de frete e níveis de serviço só melhoram quando alguém mede, entende e age sobre eles. Daí veio a vontade de ir além das planilhas e trabalhar com dados de ponta a ponta.",
+    "Hoje trabalho com Python, SQL, Databricks e Power BI, da coleta e tratamento dos dados até a análise, os modelos e os dashboards. Estou em busca de oportunidades na área de dados, presenciais ou remotas, onde eu possa somar a visão de negócio com a parte técnica."
   ],
-  ferramentas: ["Python", "Pandas", "SQL", "Power BI", "DAX", "Excel", "Scikit-learn", "Git"],
-  email: "seuemail@exemplo.com",
-  linkedin: "https://www.linkedin.com/in/seu-usuario",
-  github: "https://github.com/seu-usuario"
+  ferramentas: ["Python", "Pandas", "SQL", "Databricks", "Power BI", "DAX", "Excel", "Scikit-learn", "Git"],
+  email: "",
+  linkedin: "https://www.linkedin.com/in/naylsonviana/",
+  github: "https://github.com/NaylsonViana"
 };
 
 /* Áreas: cada uma tem sua cor no site.
