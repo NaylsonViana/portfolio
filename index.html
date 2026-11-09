@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio | Dados</title>
+  <meta name="description" content="Portfólio de projetos em ciência de dados, análise de dados e dashboards em Power BI.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <a href="#inicio" class="marca" id="marca"></a>
+    <nav aria-label="Navegação principal">
+      <a href="#projetos">Projetos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO: o gráfico é gerado a partir dos seus projetos -->
+    <section class="hero" id="inicio">
+      <div class="hero-texto">
+        <p class="hero-ola">Olá, eu sou</p>
+        <h1 id="nome"></h1>
+        <p class="hero-titulo" id="titulo"></p>
+        <p class="hero-bio" id="bio"></p>
+        <div class="hero-acoes">
+          <a href="#projetos" class="botao botao-principal">Ver projetos</a>
+          <a href="#contato" class="botao botao-secundario">Falar comigo</a>
+        </div>
+      </div>
+
+      <figure class="hero-grafico" aria-labelledby="legenda-grafico">
+        <div class="barras" id="barras"></div>
+        <figcaption id="legenda-grafico">Meus projetos por área</figcaption>
+      </figure>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="secao" id="projetos">
+      <div class="secao-cabecalho">
+        <h2>Projetos</h2>
+        <div class="filtros" id="filtros" role="group" aria-label="Filtrar projetos por área"></div>
+      </div>
+      <div class="grade-projetos" id="grade-projetos"></div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="secao sobre" id="sobre">
+      <div class="sobre-texto">
+        <h2>Sobre mim</h2>
+        <div id="sobre-paragrafos"></div>
+      </div>
+      <div class="sobre-ferramentas">
+        <h3>Ferramentas que uso</h3>
+        <ul class="ferramentas" id="ferramentas"></ul>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="secao contato" id="contato">
+      <h2>Vamos conversar?</h2>
+      <p>Estou aberto a oportunidades, freelas e trocas sobre dados.</p>
+      <div class="contato-links" id="contato-links"></div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>© <span id="ano"></span> <span id="nome-rodape"></span></p>
+  </footer>
+
+  <!-- Janela para dashboards do Power BI -->
+  <dialog class="modal" id="modal" aria-labelledby="modal-titulo">
+    <div class="modal-topo">
+      <h3 id="modal-titulo"></h3>
+      <button class="modal-fechar" id="modal-fechar" aria-label="Fechar dashboard">✕</button>
+    </div>
+    <div class="modal-quadro" id="modal-quadro"></div>
+  </dialog>
+
+  <script src="js/dados.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
